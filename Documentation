@@ -1,2 +1,9 @@
 Model Optimizer :
 The Model Optimizer helps convert models in multiple different frameworks to an Intermediate Representation, which is used with the Inference Engine
+
+Intel Openvino supported frameworks:
+Caffe - UC berkely
+tensorflow - gooogle brains
+MXnet - Apache 
+ONNXX - Facebook and Apple ML
+Kaldi - Individual(Speech Recognition)
