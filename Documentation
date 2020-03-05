@@ -12,3 +12,8 @@ Model optimizer to Inference engine :
 The IR is able to be loaded directly into the Inference Engine, and is actually made of two output files from the Model Optimizer: an XML file and a binary file. The XML file holds the model architecture and other important metadata, while the binary file holds weights and biases in a binary format. You need both of these files in order to run inference 
 ----------------------------------------------------------------------------------------------------------------------------
 Connverting Tensorflow model to load into IR engine through Model Optimizer
+-------------------------------------------------------------------------------------------------------------------------------
+To load an IR into the Inference Engine, you’ll mostly work with two classes in the openvino.inference_engine library (if using Python):
+
+IECore, which is the Python wrapper to work with the Inference Engine
+IENetwork, which is what will initially hold the network and get loaded int
